@@ -1,16 +1,32 @@
-body {
-    background-color: #007bff;
+:root {
+    --s: 60px; /* Controls the size */
+    --_g: #0000 83%, #b09f79 85% 99%, #0000 101%;
   }
-.booking-form-container {
+  
+  body {
+    height: 100vh; /* Makes sure it covers the full viewport height */
+    margin: 0; /* Removes default margin */
+    background:
+      radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
+      radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
+      radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
+      radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
+      #476074;
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+    background-repeat: repeat; /* Ensures the pattern repeats seamlessly */
+  }
+
+  .booking-form-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.2); /* Adjust transparency */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     border: 3px solid transparent;
     background-clip: padding-box;
+    backdrop-filter: blur(10px); /* Adds a blurred glass effect */
     position: relative;
 }
 
@@ -21,11 +37,9 @@ body {
     left: -3px;
     right: -3px;
     bottom: -3px;
-    background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff7eb3);
     border-radius: 12px;
     z-index: -1;
 }
-
 .booking-form-container:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -49,13 +63,13 @@ body {
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #b09f79;
     border: none;
     transition: background 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #476074;;
 }
 
 
