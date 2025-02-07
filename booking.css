@@ -2,6 +2,7 @@
     --s: 60px; /* Controls the size */
     --_g: #0000 83%, #b09f79 85% 99%, #0000 101%;
   }
+
   
   body {
     height: 100vh; /* Makes sure it covers the full viewport height */

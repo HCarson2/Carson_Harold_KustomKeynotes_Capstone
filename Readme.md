@@ -16,6 +16,8 @@ Website about building Keynote material, a platform for selling course material,
 
 - JavaScript
 
+- CodePen (Test code)
+
 ## Design Inspirations
 
 - Figma Community (Marketing Agency Landing Page) - For my landing page.
@@ -23,5 +25,7 @@ Website about building Keynote material, a platform for selling course material,
 - Bootstrap/Figma Community for my NavBar.
 
 - Sharongai.com/contact for my Booking Form.
+
+- Freefrontend.com/css-background-patterns
 
 

@@ -1,6 +1,15 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 50px auto;
     padding: 20px;
-    background-color: whitesmoke;
+    background: rgba(255, 255, 255, 0.2); /* Adjust transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    backdrop-filter: blur(10px); /* Adds a blurred glass effect */
+    position: relative;
 }
+
+
