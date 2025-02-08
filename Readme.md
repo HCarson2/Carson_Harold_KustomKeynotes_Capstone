@@ -26,6 +26,7 @@ Website about building Keynote material, a platform for selling course material,
 
 - Sharongai.com/contact for my Booking Form.
 
-- Freefrontend.com/css-background-patterns
+- Freefrontend.com/css-background-patterns.
 
+- google images for subscription design.
 
